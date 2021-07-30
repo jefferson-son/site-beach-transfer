@@ -1,0 +1,6 @@
+font-family: 'Courier Prime', monospace;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+                                                
+

@@ -1,0 +1,182 @@
+@charset "UTF-8";
+            
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Style Title*/
+
+#title {
+    background-color: #010440;
+    color: #ffff;
+    padding: 3% 7% 5%;
+}
+
+.navbar {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.2rem;
+    padding-right: 3%;
+}
+
+.big-text h1 {
+    font-size: 4rem;
+    margin-bottom: 15%;
+}
+
+.big-text {
+    font-size: 1.2rem;
+    line-height: 2;
+    padding: 3% 5% 3% 3%;
+}
+
+.heading-image {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+/*Style Transfer*/
+
+#transfer {
+    padding: 3% 7% 5%;
+}
+
+.transfer h2 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 5% 3%;
+}
+
+.card-title {
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+}
+
+.border-card{
+    padding: 0 5px;
+}
+
+.card {
+    padding-top: 2%;
+    margin-top: 4%;
+}
+
+.footer-pipa{
+    margin-top: 58px;
+}
+
+/*Style About-us*/
+
+#about-us {
+    padding: 3% 7% 5%;
+    background-color: #f2cf1d;
+}
+
+.who-we-are h2{
+    padding-top: 5%;
+    font-size: 5rem;
+}
+
+.who-we-are p {
+    padding-top: 3%;
+    font-size: 1.5rem;
+}
+
+.font-beach {
+    font-family: 'Kaushan Script', cursive;
+    line-height: 1.5;
+}
+
+.box-carousel{
+    padding: 8%;
+}
+
+/*Style Depositions*/
+
+#depositions {
+    padding: 3% 7% 5%;
+    text-align: center;
+}
+
+.depositions-clients{
+    padding: 3%;
+}
+
+.depositions-clients p {
+    padding-top: 10%;
+    padding-bottom: 6%;
+}
+
+/*Style Gallery*/
+
+#gallery {
+    padding: 10% 7% 5%;
+    text-align: center;
+    background-color: #5C63C8;
+    color: white;
+    height: 700px;
+}
+
+#gallery h4 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+/* Style Contact*/
+
+#contact {
+    padding: 3% 7% 2% 3%;
+    background-color:white;
+    color: black;
+    text-align: center;
+}
+
+.fab {
+    margin: 3% 0;
+    margin-right: 4%;
+    padding: 2% 0;
+}
+
+/* Style Footer*/
+
+#footer {
+    padding: 3% 7% 2% 3%;
+    text-align: center;
+    background-color: #010440;
+    color: white;
+}
+
+/*Responsive*/
+
+@media (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+
+    #gallery {
+        padding: 10% 3% 13%;
+        text-align: center;
+        background-color: #5C63C8;
+        color: white;
+        height: 550px;
+    }
+
+    #gallery h4 {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .carousel-control-prev {
+        padding-right: 5%;
+    }
+
+    .carousel-control-next{
+        padding-left: 5%;
+    }
+
+    #footer {
+        padding-bottom: 7%;
+    }
+}
+
+
